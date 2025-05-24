@@ -46,3 +46,14 @@ https://github.com/roboflow/sports/assets/26109316/7ad414dd-cc4e-476d-9af3-02dfd
 ## 🏆 contribution
 
 We love your input! [Let us know](https://github.com/roboflow/sports/issues) what else we should build!
+
+## 🖥️ web interface
+
+A simple Streamlit app is provided to run the soccer demo on your own videos.
+
+```bash
+pip install streamlit
+streamlit run web_interface.py
+```
+
+Upload a video, choose the analysis mode and your device, then view the processed result directly in the browser.
